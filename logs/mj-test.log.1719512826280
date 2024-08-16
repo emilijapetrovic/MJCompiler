@@ -1,0 +1,1663 @@
+INFO  20:25:09,911 - Compiling source file: C:\Users\Emilija\eclipse-workspace\MJCompilerJul\test\test301.mj
+INFO  20:25:09,959 - #14 program
+INFO  20:25:09,959 - #2 test301
+INFO  20:25:09,959 - #37 const
+INFO  20:25:09,960 - #2 int
+INFO  20:25:09,961 - #2 nula
+INFO  20:25:09,961 - #35 =
+INFO  20:25:09,961 - #3 0
+INFO  20:25:09,961 - #36 ;
+INFO  20:25:09,963 - #37 const
+INFO  20:25:09,963 - #2 int
+INFO  20:25:09,963 - #2 jedan
+INFO  20:25:09,963 - #35 =
+INFO  20:25:09,963 - #3 1
+INFO  20:25:09,964 - #36 ;
+INFO  20:25:09,964 - #37 const
+INFO  20:25:09,964 - #2 int
+INFO  20:25:09,964 - #2 pet
+INFO  20:25:09,964 - #35 =
+INFO  20:25:09,964 - #3 5
+INFO  20:25:09,964 - #36 ;
+INFO  20:25:09,964 - #2 int
+INFO  20:25:09,964 - #2 niz
+INFO  20:25:09,965 - #18 [
+INFO  20:25:09,965 - #19 ]
+INFO  20:25:09,965 - #38 ,
+INFO  20:25:09,965 - #2 niz2
+INFO  20:25:09,965 - #18 [
+INFO  20:25:09,965 - #19 ]
+INFO  20:25:09,965 - #36 ;
+INFO  20:25:09,966 - #2 char
+INFO  20:25:09,967 - #2 nizch
+INFO  20:25:09,967 - #18 [
+INFO  20:25:09,967 - #19 ]
+INFO  20:25:09,967 - #36 ;
+INFO  20:25:09,967 - #15 {
+INFO  20:25:09,967 - #44 void
+INFO  20:25:09,968 - #2 main
+INFO  20:25:09,968 - #21 (
+INFO  20:25:09,968 - #22 )
+INFO  20:25:09,969 - #2 int
+INFO  20:25:09,970 - #2 bodovi
+INFO  20:25:09,971 - #36 ;
+INFO  20:25:09,971 - #2 bool
+INFO  20:25:09,971 - #2 bt
+INFO  20:25:09,971 - #36 ;
+INFO  20:25:09,971 - #15 {
+INFO  20:25:09,971 - #2 bodovi
+INFO  20:25:09,972 - #35 =
+INFO  20:25:09,973 - #3 0
+INFO  20:25:09,975 - #36 ;
+INFO  20:25:09,979 - #2 bodovi
+INFO  20:25:09,979 - #42 ++
+INFO  20:25:09,979 - #36 ;
+INFO  20:25:09,979 - #2 bodovi
+INFO  20:25:09,979 - #35 =
+INFO  20:25:09,979 - #2 bodovi
+INFO  20:25:09,979 - #17 +
+INFO  20:25:09,980 - #2 jedan
+INFO  20:25:09,981 - #36 ;
+INFO  20:25:09,981 - #2 bodovi
+INFO  20:25:09,981 - #35 =
+INFO  20:25:09,981 - #2 bodovi
+INFO  20:25:09,981 - #31 *
+INFO  20:25:09,981 - #2 pet
+INFO  20:25:09,983 - #36 ;
+INFO  20:25:09,983 - #2 bodovi
+INFO  20:25:09,983 - #43 --
+INFO  20:25:09,983 - #36 ;
+INFO  20:25:09,983 - #41 print
+INFO  20:25:09,983 - #21 (
+INFO  20:25:09,983 - #2 bodovi
+INFO  20:25:09,983 - #22 )
+INFO  20:25:09,984 - #36 ;
+INFO  20:25:09,984 - #2 niz
+INFO  20:25:09,984 - #35 =
+INFO  20:25:09,984 - #51 new
+INFO  20:25:09,984 - #2 int
+INFO  20:25:09,984 - #18 [
+INFO  20:25:09,984 - #3 3
+INFO  20:25:09,985 - #19 ]
+INFO  20:25:09,985 - #36 ;
+INFO  20:25:09,985 - #2 niz
+INFO  20:25:09,985 - #18 [
+INFO  20:25:09,986 - #2 nula
+INFO  20:25:09,986 - #19 ]
+INFO  20:25:09,986 - #35 =
+INFO  20:25:09,987 - #2 jedan
+INFO  20:25:09,987 - #36 ;
+INFO  20:25:09,987 - #2 niz
+INFO  20:25:09,987 - #18 [
+INFO  20:25:09,987 - #3 1
+INFO  20:25:09,987 - #19 ]
+INFO  20:25:09,987 - #35 =
+INFO  20:25:09,987 - #3 2
+INFO  20:25:09,987 - #36 ;
+INFO  20:25:09,987 - #2 niz
+INFO  20:25:09,988 - #18 [
+INFO  20:25:09,988 - #2 niz
+INFO  20:25:09,988 - #18 [
+INFO  20:25:09,988 - #2 jedan
+INFO  20:25:09,988 - #19 ]
+INFO  20:25:09,988 - #19 ]
+INFO  20:25:09,988 - #35 =
+INFO  20:25:09,988 - #2 niz
+INFO  20:25:09,988 - #18 [
+INFO  20:25:09,988 - #2 niz
+INFO  20:25:09,988 - #18 [
+INFO  20:25:09,988 - #3 0
+INFO  20:25:09,988 - #19 ]
+INFO  20:25:09,989 - #19 ]
+INFO  20:25:09,989 - #31 *
+INFO  20:25:09,989 - #3 3
+INFO  20:25:09,989 - #36 ;
+INFO  20:25:09,989 - #2 bodovi
+INFO  20:25:09,990 - #35 =
+INFO  20:25:09,990 - #2 niz
+INFO  20:25:09,990 - #18 [
+INFO  20:25:09,990 - #3 2
+INFO  20:25:09,990 - #19 ]
+INFO  20:25:09,990 - #30 /
+INFO  20:25:09,990 - #2 niz
+INFO  20:25:09,991 - #18 [
+INFO  20:25:09,991 - #3 0
+INFO  20:25:09,991 - #19 ]
+INFO  20:25:09,991 - #36 ;
+INFO  20:25:09,991 - #41 print
+INFO  20:25:09,991 - #21 (
+INFO  20:25:09,991 - #2 bodovi
+INFO  20:25:09,991 - #22 )
+INFO  20:25:09,992 - #36 ;
+INFO  20:25:09,992 - #41 print
+INFO  20:25:09,992 - #21 (
+INFO  20:25:09,992 - #2 niz
+INFO  20:25:09,992 - #18 [
+INFO  20:25:09,992 - #3 2
+INFO  20:25:09,992 - #19 ]
+INFO  20:25:09,992 - #22 )
+INFO  20:25:09,992 - #36 ;
+INFO  20:25:09,992 - #2 nizch
+INFO  20:25:09,993 - #35 =
+INFO  20:25:09,993 - #51 new
+INFO  20:25:09,993 - #2 char
+INFO  20:25:09,993 - #18 [
+INFO  20:25:09,993 - #3 3
+INFO  20:25:09,993 - #19 ]
+INFO  20:25:09,993 - #36 ;
+INFO  20:25:09,993 - #2 nizch
+INFO  20:25:09,993 - #18 [
+INFO  20:25:09,993 - #3 0
+INFO  20:25:09,993 - #19 ]
+INFO  20:25:09,993 - #35 =
+INFO  20:25:09,994 - #5 a
+INFO  20:25:09,994 - #36 ;
+INFO  20:25:09,994 - #2 nizch
+INFO  20:25:09,994 - #18 [
+INFO  20:25:09,994 - #2 jedan
+INFO  20:25:09,994 - #19 ]
+INFO  20:25:09,994 - #35 =
+INFO  20:25:09,994 - #5 b
+INFO  20:25:09,994 - #36 ;
+INFO  20:25:09,995 - #2 nizch
+INFO  20:25:09,995 - #18 [
+INFO  20:25:09,995 - #2 pet
+INFO  20:25:09,995 - #29 -
+INFO  20:25:09,995 - #3 3
+INFO  20:25:09,996 - #19 ]
+INFO  20:25:09,996 - #35 =
+INFO  20:25:09,996 - #5 c
+INFO  20:25:09,996 - #36 ;
+INFO  20:25:09,996 - #41 print
+INFO  20:25:09,996 - #21 (
+INFO  20:25:09,997 - #2 nizch
+INFO  20:25:09,997 - #18 [
+INFO  20:25:09,997 - #3 1
+INFO  20:25:09,997 - #19 ]
+INFO  20:25:09,997 - #22 )
+INFO  20:25:09,997 - #36 ;
+INFO  20:25:09,997 - #41 print
+INFO  20:25:09,997 - #21 (
+INFO  20:25:09,997 - #2 nizch
+INFO  20:25:09,997 - #18 [
+INFO  20:25:09,998 - #2 jedan
+INFO  20:25:09,998 - #31 *
+INFO  20:25:09,998 - #3 2
+INFO  20:25:09,998 - #19 ]
+INFO  20:25:09,998 - #22 )
+INFO  20:25:09,998 - #36 ;
+INFO  20:25:09,998 - #2 bodovi
+INFO  20:25:09,998 - #35 =
+INFO  20:25:09,998 - #2 bodovi
+INFO  20:25:09,998 - #17 +
+INFO  20:25:09,998 - #21 (
+INFO  20:25:09,998 - #2 pet
+INFO  20:25:09,998 - #31 *
+INFO  20:25:09,999 - #2 jedan
+INFO  20:25:09,999 - #29 -
+INFO  20:25:09,999 - #3 1
+INFO  20:25:09,999 - #22 )
+INFO  20:25:09,999 - #31 *
+INFO  20:25:09,999 - #2 bodovi
+INFO  20:25:09,999 - #29 -
+INFO  20:25:09,999 - #21 (
+INFO  20:25:09,999 - #3 3
+INFO  20:25:09,999 - #32 %
+INFO  20:25:10,000 - #3 2
+INFO  20:25:10,000 - #17 +
+INFO  20:25:10,001 - #3 3
+INFO  20:25:10,001 - #31 *
+INFO  20:25:10,001 - #3 2
+INFO  20:25:10,001 - #29 -
+INFO  20:25:10,001 - #3 3
+INFO  20:25:10,001 - #22 )
+INFO  20:25:10,001 - #36 ;
+INFO  20:25:10,001 - #41 print
+INFO  20:25:10,001 - #21 (
+INFO  20:25:10,001 - #2 bodovi
+INFO  20:25:10,002 - #22 )
+INFO  20:25:10,002 - #36 ;
+INFO  20:25:10,002 - #40 read
+INFO  20:25:10,002 - #21 (
+INFO  20:25:10,002 - #2 bodovi
+INFO  20:25:10,002 - #22 )
+INFO  20:25:10,002 - #36 ;
+INFO  20:25:10,002 - #41 print
+INFO  20:25:10,002 - #21 (
+INFO  20:25:10,003 - #2 bodovi
+INFO  20:25:10,003 - #22 )
+INFO  20:25:10,003 - #36 ;
+INFO  20:25:10,003 - #2 niz2
+INFO  20:25:10,003 - #35 =
+INFO  20:25:10,003 - #11 range
+INFO  20:25:10,003 - #21 (
+INFO  20:25:10,003 - #2 bodovi
+INFO  20:25:10,003 - #17 +
+INFO  20:25:10,003 - #3 1
+INFO  20:25:10,003 - #22 )
+INFO  20:25:10,003 - #36 ;
+INFO  20:25:10,004 - #41 print
+INFO  20:25:10,004 - #21 (
+INFO  20:25:10,004 - #2 niz2
+INFO  20:25:10,004 - #22 )
+INFO  20:25:10,004 - #36 ;
+INFO  20:25:10,004 - #16 }
+INFO  20:25:10,004 - #16 }
+INFO  20:25:10,012 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  Namespace_e(
+  ) [Namespace_e]
+  ConVarDeclV(
+    ConVarDeclV(
+      ConVarDeclC(
+        ConVarDeclC(
+          ConVarDeclC(
+            ConVarDeclE(
+            ) [ConVarDeclE]
+            ConDeclList(
+              Type(
+               int
+              ) [Type]
+              ConDecl(
+               nula
+                Constant_num(
+                 0
+                ) [Constant_num]
+              ) [ConDecl]
+              ConDeclAdditional_e(
+              ) [ConDeclAdditional_e]
+            ) [ConDeclList]
+          ) [ConVarDeclC]
+          ConDeclList(
+            Type(
+             int
+            ) [Type]
+            ConDecl(
+             jedan
+              Constant_num(
+               1
+              ) [Constant_num]
+            ) [ConDecl]
+            ConDeclAdditional_e(
+            ) [ConDeclAdditional_e]
+          ) [ConDeclList]
+        ) [ConVarDeclC]
+        ConDeclList(
+          Type(
+           int
+          ) [Type]
+          ConDecl(
+           pet
+            Constant_num(
+             5
+            ) [Constant_num]
+          ) [ConDecl]
+          ConDeclAdditional_e(
+          ) [ConDeclAdditional_e]
+        ) [ConDeclList]
+      ) [ConVarDeclC]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_arr(
+         niz
+        ) [VarDecl_arr]
+        VarDeclAdditional_comma(
+          VarDecl_arr(
+           niz2
+          ) [VarDecl_arr]
+          VarDeclAdditional_e(
+          ) [VarDeclAdditional_e]
+        ) [VarDeclAdditional_comma]
+      ) [VarDeclList]
+    ) [ConVarDeclV]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      VarDecl_arr(
+       nizch
+      ) [VarDecl_arr]
+      VarDeclAdditional_e(
+      ) [VarDeclAdditional_e]
+    ) [VarDeclList]
+  ) [ConVarDeclV]
+  MethodDeclList_exist(
+    MethodDeclListe(
+    ) [MethodDeclListe]
+    MethodDecl(
+      VoidFunc(
+       main
+      ) [VoidFunc]
+      FormPars_e(
+      ) [FormPars_e]
+      VarDeclListRece(
+        VarDeclListRece(
+          VarDeclList_epsilon(
+          ) [VarDeclList_epsilon]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl_v(
+             bodovi
+            ) [VarDecl_v]
+            VarDeclAdditional_e(
+            ) [VarDeclAdditional_e]
+          ) [VarDeclList]
+        ) [VarDeclListRece]
+        VarDeclList(
+          Type(
+           bool
+          ) [Type]
+          VarDecl_v(
+           bt
+          ) [VarDecl_v]
+          VarDeclAdditional_e(
+          ) [VarDeclAdditional_e]
+        ) [VarDeclList]
+      ) [VarDeclListRece]
+      StatementListc(
+        StatementListc(
+          StatementListc(
+            StatementListc(
+              StatementListc(
+                StatementListc(
+                  StatementListc(
+                    StatementListc(
+                      StatementListc(
+                        StatementListc(
+                          StatementListc(
+                            StatementListc(
+                              StatementListc(
+                                StatementListc(
+                                  StatementListc(
+                                    StatementListc(
+                                      StatementListc(
+                                        StatementListc(
+                                          StatementListc(
+                                            StatementListc(
+                                              StatementListc(
+                                                StatementListc(
+                                                  StatementListc(
+                                                    StatementListc(
+                                                      StatementListc(
+                                                        NoStatementList(
+                                                        ) [NoStatementList]
+                                                        Stmt(
+                                                          Statement_d(
+                                                            DesignatorAssign(
+                                                              DesignatorBasic(
+                                                                DesignatorName(
+                                                                 bodovi
+                                                                ) [DesignatorName]
+                                                              ) [DesignatorBasic]
+                                                              Assignop(
+                                                              ) [Assignop]
+                                                              Expr(
+                                                                Term(
+                                                                  Factor(
+                                                                    NoOptionalMinus(
+                                                                    ) [NoOptionalMinus]
+                                                                    BaseNumber(
+                                                                     0
+                                                                    ) [BaseNumber]
+                                                                  ) [Factor]
+                                                                  NoMulopFactorList(
+                                                                  ) [NoMulopFactorList]
+                                                                ) [Term]
+                                                                NoAddopTermList(
+                                                                ) [NoAddopTermList]
+                                                              ) [Expr]
+                                                            ) [DesignatorAssign]
+                                                          ) [Statement_d]
+                                                        ) [Stmt]
+                                                      ) [StatementListc]
+                                                      Stmt(
+                                                        Statement_d(
+                                                          DesignatorIncrement(
+                                                            DesignatorBasic(
+                                                              DesignatorName(
+                                                               bodovi
+                                                              ) [DesignatorName]
+                                                            ) [DesignatorBasic]
+                                                          ) [DesignatorIncrement]
+                                                        ) [Statement_d]
+                                                      ) [Stmt]
+                                                    ) [StatementListc]
+                                                    Stmt(
+                                                      Statement_d(
+                                                        DesignatorAssign(
+                                                          DesignatorBasic(
+                                                            DesignatorName(
+                                                             bodovi
+                                                            ) [DesignatorName]
+                                                          ) [DesignatorBasic]
+                                                          Assignop(
+                                                          ) [Assignop]
+                                                          Expr(
+                                                            Term(
+                                                              Factor(
+                                                                NoOptionalMinus(
+                                                                ) [NoOptionalMinus]
+                                                                BaseDesignator(
+                                                                  DesignatorBasic(
+                                                                    DesignatorName(
+                                                                     bodovi
+                                                                    ) [DesignatorName]
+                                                                  ) [DesignatorBasic]
+                                                                ) [BaseDesignator]
+                                                              ) [Factor]
+                                                              NoMulopFactorList(
+                                                              ) [NoMulopFactorList]
+                                                            ) [Term]
+                                                            AddopTermListc(
+                                                              NoAddopTermList(
+                                                              ) [NoAddopTermList]
+                                                              OperationPlus(
+                                                              ) [OperationPlus]
+                                                              Term(
+                                                                Factor(
+                                                                  NoOptionalMinus(
+                                                                  ) [NoOptionalMinus]
+                                                                  BaseDesignator(
+                                                                    DesignatorBasic(
+                                                                      DesignatorName(
+                                                                       jedan
+                                                                      ) [DesignatorName]
+                                                                    ) [DesignatorBasic]
+                                                                  ) [BaseDesignator]
+                                                                ) [Factor]
+                                                                NoMulopFactorList(
+                                                                ) [NoMulopFactorList]
+                                                              ) [Term]
+                                                            ) [AddopTermListc]
+                                                          ) [Expr]
+                                                        ) [DesignatorAssign]
+                                                      ) [Statement_d]
+                                                    ) [Stmt]
+                                                  ) [StatementListc]
+                                                  Stmt(
+                                                    Statement_d(
+                                                      DesignatorAssign(
+                                                        DesignatorBasic(
+                                                          DesignatorName(
+                                                           bodovi
+                                                          ) [DesignatorName]
+                                                        ) [DesignatorBasic]
+                                                        Assignop(
+                                                        ) [Assignop]
+                                                        Expr(
+                                                          Term(
+                                                            Factor(
+                                                              NoOptionalMinus(
+                                                              ) [NoOptionalMinus]
+                                                              BaseDesignator(
+                                                                DesignatorBasic(
+                                                                  DesignatorName(
+                                                                   bodovi
+                                                                  ) [DesignatorName]
+                                                                ) [DesignatorBasic]
+                                                              ) [BaseDesignator]
+                                                            ) [Factor]
+                                                            MulopFactorListc(
+                                                              NoMulopFactorList(
+                                                              ) [NoMulopFactorList]
+                                                              OperationMul(
+                                                              ) [OperationMul]
+                                                              Factor(
+                                                                NoOptionalMinus(
+                                                                ) [NoOptionalMinus]
+                                                                BaseDesignator(
+                                                                  DesignatorBasic(
+                                                                    DesignatorName(
+                                                                     pet
+                                                                    ) [DesignatorName]
+                                                                  ) [DesignatorBasic]
+                                                                ) [BaseDesignator]
+                                                              ) [Factor]
+                                                            ) [MulopFactorListc]
+                                                          ) [Term]
+                                                          NoAddopTermList(
+                                                          ) [NoAddopTermList]
+                                                        ) [Expr]
+                                                      ) [DesignatorAssign]
+                                                    ) [Statement_d]
+                                                  ) [Stmt]
+                                                ) [StatementListc]
+                                                Stmt(
+                                                  Statement_d(
+                                                    DesignatorDecrement(
+                                                      DesignatorBasic(
+                                                        DesignatorName(
+                                                         bodovi
+                                                        ) [DesignatorName]
+                                                      ) [DesignatorBasic]
+                                                    ) [DesignatorDecrement]
+                                                  ) [Statement_d]
+                                                ) [Stmt]
+                                              ) [StatementListc]
+                                              Stmt(
+                                                Print(
+                                                  Expr(
+                                                    Term(
+                                                      Factor(
+                                                        NoOptionalMinus(
+                                                        ) [NoOptionalMinus]
+                                                        BaseDesignator(
+                                                          DesignatorBasic(
+                                                            DesignatorName(
+                                                             bodovi
+                                                            ) [DesignatorName]
+                                                          ) [DesignatorBasic]
+                                                        ) [BaseDesignator]
+                                                      ) [Factor]
+                                                      NoMulopFactorList(
+                                                      ) [NoMulopFactorList]
+                                                    ) [Term]
+                                                    NoAddopTermList(
+                                                    ) [NoAddopTermList]
+                                                  ) [Expr]
+                                                  NoOptionalNumConst(
+                                                  ) [NoOptionalNumConst]
+                                                ) [Print]
+                                              ) [Stmt]
+                                            ) [StatementListc]
+                                            Stmt(
+                                              Statement_d(
+                                                DesignatorAssign(
+                                                  DesignatorBasic(
+                                                    DesignatorName(
+                                                     niz
+                                                    ) [DesignatorName]
+                                                  ) [DesignatorBasic]
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  Expr(
+                                                    Term(
+                                                      Factor(
+                                                        NoOptionalMinus(
+                                                        ) [NoOptionalMinus]
+                                                        BaseNewArrayElem(
+                                                          Type(
+                                                           int
+                                                          ) [Type]
+                                                          Expr(
+                                                            Term(
+                                                              Factor(
+                                                                NoOptionalMinus(
+                                                                ) [NoOptionalMinus]
+                                                                BaseNumber(
+                                                                 3
+                                                                ) [BaseNumber]
+                                                              ) [Factor]
+                                                              NoMulopFactorList(
+                                                              ) [NoMulopFactorList]
+                                                            ) [Term]
+                                                            NoAddopTermList(
+                                                            ) [NoAddopTermList]
+                                                          ) [Expr]
+                                                        ) [BaseNewArrayElem]
+                                                      ) [Factor]
+                                                      NoMulopFactorList(
+                                                      ) [NoMulopFactorList]
+                                                    ) [Term]
+                                                    NoAddopTermList(
+                                                    ) [NoAddopTermList]
+                                                  ) [Expr]
+                                                ) [DesignatorAssign]
+                                              ) [Statement_d]
+                                            ) [Stmt]
+                                          ) [StatementListc]
+                                          Stmt(
+                                            Statement_d(
+                                              DesignatorAssign(
+                                                ArrayElem(
+                                                  DesignatorNameArr(
+                                                   niz
+                                                  ) [DesignatorNameArr]
+                                                  Expr(
+                                                    Term(
+                                                      Factor(
+                                                        NoOptionalMinus(
+                                                        ) [NoOptionalMinus]
+                                                        BaseDesignator(
+                                                          DesignatorBasic(
+                                                            DesignatorName(
+                                                             nula
+                                                            ) [DesignatorName]
+                                                          ) [DesignatorBasic]
+                                                        ) [BaseDesignator]
+                                                      ) [Factor]
+                                                      NoMulopFactorList(
+                                                      ) [NoMulopFactorList]
+                                                    ) [Term]
+                                                    NoAddopTermList(
+                                                    ) [NoAddopTermList]
+                                                  ) [Expr]
+                                                ) [ArrayElem]
+                                                Assignop(
+                                                ) [Assignop]
+                                                Expr(
+                                                  Term(
+                                                    Factor(
+                                                      NoOptionalMinus(
+                                                      ) [NoOptionalMinus]
+                                                      BaseDesignator(
+                                                        DesignatorBasic(
+                                                          DesignatorName(
+                                                           jedan
+                                                          ) [DesignatorName]
+                                                        ) [DesignatorBasic]
+                                                      ) [BaseDesignator]
+                                                    ) [Factor]
+                                                    NoMulopFactorList(
+                                                    ) [NoMulopFactorList]
+                                                  ) [Term]
+                                                  NoAddopTermList(
+                                                  ) [NoAddopTermList]
+                                                ) [Expr]
+                                              ) [DesignatorAssign]
+                                            ) [Statement_d]
+                                          ) [Stmt]
+                                        ) [StatementListc]
+                                        Stmt(
+                                          Statement_d(
+                                            DesignatorAssign(
+                                              ArrayElem(
+                                                DesignatorNameArr(
+                                                 niz
+                                                ) [DesignatorNameArr]
+                                                Expr(
+                                                  Term(
+                                                    Factor(
+                                                      NoOptionalMinus(
+                                                      ) [NoOptionalMinus]
+                                                      BaseNumber(
+                                                       1
+                                                      ) [BaseNumber]
+                                                    ) [Factor]
+                                                    NoMulopFactorList(
+                                                    ) [NoMulopFactorList]
+                                                  ) [Term]
+                                                  NoAddopTermList(
+                                                  ) [NoAddopTermList]
+                                                ) [Expr]
+                                              ) [ArrayElem]
+                                              Assignop(
+                                              ) [Assignop]
+                                              Expr(
+                                                Term(
+                                                  Factor(
+                                                    NoOptionalMinus(
+                                                    ) [NoOptionalMinus]
+                                                    BaseNumber(
+                                                     2
+                                                    ) [BaseNumber]
+                                                  ) [Factor]
+                                                  NoMulopFactorList(
+                                                  ) [NoMulopFactorList]
+                                                ) [Term]
+                                                NoAddopTermList(
+                                                ) [NoAddopTermList]
+                                              ) [Expr]
+                                            ) [DesignatorAssign]
+                                          ) [Statement_d]
+                                        ) [Stmt]
+                                      ) [StatementListc]
+                                      Stmt(
+                                        Statement_d(
+                                          DesignatorAssign(
+                                            ArrayElem(
+                                              DesignatorNameArr(
+                                               niz
+                                              ) [DesignatorNameArr]
+                                              Expr(
+                                                Term(
+                                                  Factor(
+                                                    NoOptionalMinus(
+                                                    ) [NoOptionalMinus]
+                                                    BaseDesignator(
+                                                      ArrayElem(
+                                                        DesignatorNameArr(
+                                                         niz
+                                                        ) [DesignatorNameArr]
+                                                        Expr(
+                                                          Term(
+                                                            Factor(
+                                                              NoOptionalMinus(
+                                                              ) [NoOptionalMinus]
+                                                              BaseDesignator(
+                                                                DesignatorBasic(
+                                                                  DesignatorName(
+                                                                   jedan
+                                                                  ) [DesignatorName]
+                                                                ) [DesignatorBasic]
+                                                              ) [BaseDesignator]
+                                                            ) [Factor]
+                                                            NoMulopFactorList(
+                                                            ) [NoMulopFactorList]
+                                                          ) [Term]
+                                                          NoAddopTermList(
+                                                          ) [NoAddopTermList]
+                                                        ) [Expr]
+                                                      ) [ArrayElem]
+                                                    ) [BaseDesignator]
+                                                  ) [Factor]
+                                                  NoMulopFactorList(
+                                                  ) [NoMulopFactorList]
+                                                ) [Term]
+                                                NoAddopTermList(
+                                                ) [NoAddopTermList]
+                                              ) [Expr]
+                                            ) [ArrayElem]
+                                            Assignop(
+                                            ) [Assignop]
+                                            Expr(
+                                              Term(
+                                                Factor(
+                                                  NoOptionalMinus(
+                                                  ) [NoOptionalMinus]
+                                                  BaseDesignator(
+                                                    ArrayElem(
+                                                      DesignatorNameArr(
+                                                       niz
+                                                      ) [DesignatorNameArr]
+                                                      Expr(
+                                                        Term(
+                                                          Factor(
+                                                            NoOptionalMinus(
+                                                            ) [NoOptionalMinus]
+                                                            BaseDesignator(
+                                                              ArrayElem(
+                                                                DesignatorNameArr(
+                                                                 niz
+                                                                ) [DesignatorNameArr]
+                                                                Expr(
+                                                                  Term(
+                                                                    Factor(
+                                                                      NoOptionalMinus(
+                                                                      ) [NoOptionalMinus]
+                                                                      BaseNumber(
+                                                                       0
+                                                                      ) [BaseNumber]
+                                                                    ) [Factor]
+                                                                    NoMulopFactorList(
+                                                                    ) [NoMulopFactorList]
+                                                                  ) [Term]
+                                                                  NoAddopTermList(
+                                                                  ) [NoAddopTermList]
+                                                                ) [Expr]
+                                                              ) [ArrayElem]
+                                                            ) [BaseDesignator]
+                                                          ) [Factor]
+                                                          NoMulopFactorList(
+                                                          ) [NoMulopFactorList]
+                                                        ) [Term]
+                                                        NoAddopTermList(
+                                                        ) [NoAddopTermList]
+                                                      ) [Expr]
+                                                    ) [ArrayElem]
+                                                  ) [BaseDesignator]
+                                                ) [Factor]
+                                                MulopFactorListc(
+                                                  NoMulopFactorList(
+                                                  ) [NoMulopFactorList]
+                                                  OperationMul(
+                                                  ) [OperationMul]
+                                                  Factor(
+                                                    NoOptionalMinus(
+                                                    ) [NoOptionalMinus]
+                                                    BaseNumber(
+                                                     3
+                                                    ) [BaseNumber]
+                                                  ) [Factor]
+                                                ) [MulopFactorListc]
+                                              ) [Term]
+                                              NoAddopTermList(
+                                              ) [NoAddopTermList]
+                                            ) [Expr]
+                                          ) [DesignatorAssign]
+                                        ) [Statement_d]
+                                      ) [Stmt]
+                                    ) [StatementListc]
+                                    Stmt(
+                                      Statement_d(
+                                        DesignatorAssign(
+                                          DesignatorBasic(
+                                            DesignatorName(
+                                             bodovi
+                                            ) [DesignatorName]
+                                          ) [DesignatorBasic]
+                                          Assignop(
+                                          ) [Assignop]
+                                          Expr(
+                                            Term(
+                                              Factor(
+                                                NoOptionalMinus(
+                                                ) [NoOptionalMinus]
+                                                BaseDesignator(
+                                                  ArrayElem(
+                                                    DesignatorNameArr(
+                                                     niz
+                                                    ) [DesignatorNameArr]
+                                                    Expr(
+                                                      Term(
+                                                        Factor(
+                                                          NoOptionalMinus(
+                                                          ) [NoOptionalMinus]
+                                                          BaseNumber(
+                                                           2
+                                                          ) [BaseNumber]
+                                                        ) [Factor]
+                                                        NoMulopFactorList(
+                                                        ) [NoMulopFactorList]
+                                                      ) [Term]
+                                                      NoAddopTermList(
+                                                      ) [NoAddopTermList]
+                                                    ) [Expr]
+                                                  ) [ArrayElem]
+                                                ) [BaseDesignator]
+                                              ) [Factor]
+                                              MulopFactorListc(
+                                                NoMulopFactorList(
+                                                ) [NoMulopFactorList]
+                                                OperationDiv(
+                                                ) [OperationDiv]
+                                                Factor(
+                                                  NoOptionalMinus(
+                                                  ) [NoOptionalMinus]
+                                                  BaseDesignator(
+                                                    ArrayElem(
+                                                      DesignatorNameArr(
+                                                       niz
+                                                      ) [DesignatorNameArr]
+                                                      Expr(
+                                                        Term(
+                                                          Factor(
+                                                            NoOptionalMinus(
+                                                            ) [NoOptionalMinus]
+                                                            BaseNumber(
+                                                             0
+                                                            ) [BaseNumber]
+                                                          ) [Factor]
+                                                          NoMulopFactorList(
+                                                          ) [NoMulopFactorList]
+                                                        ) [Term]
+                                                        NoAddopTermList(
+                                                        ) [NoAddopTermList]
+                                                      ) [Expr]
+                                                    ) [ArrayElem]
+                                                  ) [BaseDesignator]
+                                                ) [Factor]
+                                              ) [MulopFactorListc]
+                                            ) [Term]
+                                            NoAddopTermList(
+                                            ) [NoAddopTermList]
+                                          ) [Expr]
+                                        ) [DesignatorAssign]
+                                      ) [Statement_d]
+                                    ) [Stmt]
+                                  ) [StatementListc]
+                                  Stmt(
+                                    Print(
+                                      Expr(
+                                        Term(
+                                          Factor(
+                                            NoOptionalMinus(
+                                            ) [NoOptionalMinus]
+                                            BaseDesignator(
+                                              DesignatorBasic(
+                                                DesignatorName(
+                                                 bodovi
+                                                ) [DesignatorName]
+                                              ) [DesignatorBasic]
+                                            ) [BaseDesignator]
+                                          ) [Factor]
+                                          NoMulopFactorList(
+                                          ) [NoMulopFactorList]
+                                        ) [Term]
+                                        NoAddopTermList(
+                                        ) [NoAddopTermList]
+                                      ) [Expr]
+                                      NoOptionalNumConst(
+                                      ) [NoOptionalNumConst]
+                                    ) [Print]
+                                  ) [Stmt]
+                                ) [StatementListc]
+                                Stmt(
+                                  Print(
+                                    Expr(
+                                      Term(
+                                        Factor(
+                                          NoOptionalMinus(
+                                          ) [NoOptionalMinus]
+                                          BaseDesignator(
+                                            ArrayElem(
+                                              DesignatorNameArr(
+                                               niz
+                                              ) [DesignatorNameArr]
+                                              Expr(
+                                                Term(
+                                                  Factor(
+                                                    NoOptionalMinus(
+                                                    ) [NoOptionalMinus]
+                                                    BaseNumber(
+                                                     2
+                                                    ) [BaseNumber]
+                                                  ) [Factor]
+                                                  NoMulopFactorList(
+                                                  ) [NoMulopFactorList]
+                                                ) [Term]
+                                                NoAddopTermList(
+                                                ) [NoAddopTermList]
+                                              ) [Expr]
+                                            ) [ArrayElem]
+                                          ) [BaseDesignator]
+                                        ) [Factor]
+                                        NoMulopFactorList(
+                                        ) [NoMulopFactorList]
+                                      ) [Term]
+                                      NoAddopTermList(
+                                      ) [NoAddopTermList]
+                                    ) [Expr]
+                                    NoOptionalNumConst(
+                                    ) [NoOptionalNumConst]
+                                  ) [Print]
+                                ) [Stmt]
+                              ) [StatementListc]
+                              Stmt(
+                                Statement_d(
+                                  DesignatorAssign(
+                                    DesignatorBasic(
+                                      DesignatorName(
+                                       nizch
+                                      ) [DesignatorName]
+                                    ) [DesignatorBasic]
+                                    Assignop(
+                                    ) [Assignop]
+                                    Expr(
+                                      Term(
+                                        Factor(
+                                          NoOptionalMinus(
+                                          ) [NoOptionalMinus]
+                                          BaseNewArrayElem(
+                                            Type(
+                                             char
+                                            ) [Type]
+                                            Expr(
+                                              Term(
+                                                Factor(
+                                                  NoOptionalMinus(
+                                                  ) [NoOptionalMinus]
+                                                  BaseNumber(
+                                                   3
+                                                  ) [BaseNumber]
+                                                ) [Factor]
+                                                NoMulopFactorList(
+                                                ) [NoMulopFactorList]
+                                              ) [Term]
+                                              NoAddopTermList(
+                                              ) [NoAddopTermList]
+                                            ) [Expr]
+                                          ) [BaseNewArrayElem]
+                                        ) [Factor]
+                                        NoMulopFactorList(
+                                        ) [NoMulopFactorList]
+                                      ) [Term]
+                                      NoAddopTermList(
+                                      ) [NoAddopTermList]
+                                    ) [Expr]
+                                  ) [DesignatorAssign]
+                                ) [Statement_d]
+                              ) [Stmt]
+                            ) [StatementListc]
+                            Stmt(
+                              Statement_d(
+                                DesignatorAssign(
+                                  ArrayElem(
+                                    DesignatorNameArr(
+                                     nizch
+                                    ) [DesignatorNameArr]
+                                    Expr(
+                                      Term(
+                                        Factor(
+                                          NoOptionalMinus(
+                                          ) [NoOptionalMinus]
+                                          BaseNumber(
+                                           0
+                                          ) [BaseNumber]
+                                        ) [Factor]
+                                        NoMulopFactorList(
+                                        ) [NoMulopFactorList]
+                                      ) [Term]
+                                      NoAddopTermList(
+                                      ) [NoAddopTermList]
+                                    ) [Expr]
+                                  ) [ArrayElem]
+                                  Assignop(
+                                  ) [Assignop]
+                                  Expr(
+                                    Term(
+                                      Factor(
+                                        NoOptionalMinus(
+                                        ) [NoOptionalMinus]
+                                        BaseChar(
+                                         a
+                                        ) [BaseChar]
+                                      ) [Factor]
+                                      NoMulopFactorList(
+                                      ) [NoMulopFactorList]
+                                    ) [Term]
+                                    NoAddopTermList(
+                                    ) [NoAddopTermList]
+                                  ) [Expr]
+                                ) [DesignatorAssign]
+                              ) [Statement_d]
+                            ) [Stmt]
+                          ) [StatementListc]
+                          Stmt(
+                            Statement_d(
+                              DesignatorAssign(
+                                ArrayElem(
+                                  DesignatorNameArr(
+                                   nizch
+                                  ) [DesignatorNameArr]
+                                  Expr(
+                                    Term(
+                                      Factor(
+                                        NoOptionalMinus(
+                                        ) [NoOptionalMinus]
+                                        BaseDesignator(
+                                          DesignatorBasic(
+                                            DesignatorName(
+                                             jedan
+                                            ) [DesignatorName]
+                                          ) [DesignatorBasic]
+                                        ) [BaseDesignator]
+                                      ) [Factor]
+                                      NoMulopFactorList(
+                                      ) [NoMulopFactorList]
+                                    ) [Term]
+                                    NoAddopTermList(
+                                    ) [NoAddopTermList]
+                                  ) [Expr]
+                                ) [ArrayElem]
+                                Assignop(
+                                ) [Assignop]
+                                Expr(
+                                  Term(
+                                    Factor(
+                                      NoOptionalMinus(
+                                      ) [NoOptionalMinus]
+                                      BaseChar(
+                                       b
+                                      ) [BaseChar]
+                                    ) [Factor]
+                                    NoMulopFactorList(
+                                    ) [NoMulopFactorList]
+                                  ) [Term]
+                                  NoAddopTermList(
+                                  ) [NoAddopTermList]
+                                ) [Expr]
+                              ) [DesignatorAssign]
+                            ) [Statement_d]
+                          ) [Stmt]
+                        ) [StatementListc]
+                        Stmt(
+                          Statement_d(
+                            DesignatorAssign(
+                              ArrayElem(
+                                DesignatorNameArr(
+                                 nizch
+                                ) [DesignatorNameArr]
+                                Expr(
+                                  Term(
+                                    Factor(
+                                      NoOptionalMinus(
+                                      ) [NoOptionalMinus]
+                                      BaseDesignator(
+                                        DesignatorBasic(
+                                          DesignatorName(
+                                           pet
+                                          ) [DesignatorName]
+                                        ) [DesignatorBasic]
+                                      ) [BaseDesignator]
+                                    ) [Factor]
+                                    NoMulopFactorList(
+                                    ) [NoMulopFactorList]
+                                  ) [Term]
+                                  AddopTermListc(
+                                    NoAddopTermList(
+                                    ) [NoAddopTermList]
+                                    OperationMinus(
+                                    ) [OperationMinus]
+                                    Term(
+                                      Factor(
+                                        NoOptionalMinus(
+                                        ) [NoOptionalMinus]
+                                        BaseNumber(
+                                         3
+                                        ) [BaseNumber]
+                                      ) [Factor]
+                                      NoMulopFactorList(
+                                      ) [NoMulopFactorList]
+                                    ) [Term]
+                                  ) [AddopTermListc]
+                                ) [Expr]
+                              ) [ArrayElem]
+                              Assignop(
+                              ) [Assignop]
+                              Expr(
+                                Term(
+                                  Factor(
+                                    NoOptionalMinus(
+                                    ) [NoOptionalMinus]
+                                    BaseChar(
+                                     c
+                                    ) [BaseChar]
+                                  ) [Factor]
+                                  NoMulopFactorList(
+                                  ) [NoMulopFactorList]
+                                ) [Term]
+                                NoAddopTermList(
+                                ) [NoAddopTermList]
+                              ) [Expr]
+                            ) [DesignatorAssign]
+                          ) [Statement_d]
+                        ) [Stmt]
+                      ) [StatementListc]
+                      Stmt(
+                        Print(
+                          Expr(
+                            Term(
+                              Factor(
+                                NoOptionalMinus(
+                                ) [NoOptionalMinus]
+                                BaseDesignator(
+                                  ArrayElem(
+                                    DesignatorNameArr(
+                                     nizch
+                                    ) [DesignatorNameArr]
+                                    Expr(
+                                      Term(
+                                        Factor(
+                                          NoOptionalMinus(
+                                          ) [NoOptionalMinus]
+                                          BaseNumber(
+                                           1
+                                          ) [BaseNumber]
+                                        ) [Factor]
+                                        NoMulopFactorList(
+                                        ) [NoMulopFactorList]
+                                      ) [Term]
+                                      NoAddopTermList(
+                                      ) [NoAddopTermList]
+                                    ) [Expr]
+                                  ) [ArrayElem]
+                                ) [BaseDesignator]
+                              ) [Factor]
+                              NoMulopFactorList(
+                              ) [NoMulopFactorList]
+                            ) [Term]
+                            NoAddopTermList(
+                            ) [NoAddopTermList]
+                          ) [Expr]
+                          NoOptionalNumConst(
+                          ) [NoOptionalNumConst]
+                        ) [Print]
+                      ) [Stmt]
+                    ) [StatementListc]
+                    Stmt(
+                      Print(
+                        Expr(
+                          Term(
+                            Factor(
+                              NoOptionalMinus(
+                              ) [NoOptionalMinus]
+                              BaseDesignator(
+                                ArrayElem(
+                                  DesignatorNameArr(
+                                   nizch
+                                  ) [DesignatorNameArr]
+                                  Expr(
+                                    Term(
+                                      Factor(
+                                        NoOptionalMinus(
+                                        ) [NoOptionalMinus]
+                                        BaseDesignator(
+                                          DesignatorBasic(
+                                            DesignatorName(
+                                             jedan
+                                            ) [DesignatorName]
+                                          ) [DesignatorBasic]
+                                        ) [BaseDesignator]
+                                      ) [Factor]
+                                      MulopFactorListc(
+                                        NoMulopFactorList(
+                                        ) [NoMulopFactorList]
+                                        OperationMul(
+                                        ) [OperationMul]
+                                        Factor(
+                                          NoOptionalMinus(
+                                          ) [NoOptionalMinus]
+                                          BaseNumber(
+                                           2
+                                          ) [BaseNumber]
+                                        ) [Factor]
+                                      ) [MulopFactorListc]
+                                    ) [Term]
+                                    NoAddopTermList(
+                                    ) [NoAddopTermList]
+                                  ) [Expr]
+                                ) [ArrayElem]
+                              ) [BaseDesignator]
+                            ) [Factor]
+                            NoMulopFactorList(
+                            ) [NoMulopFactorList]
+                          ) [Term]
+                          NoAddopTermList(
+                          ) [NoAddopTermList]
+                        ) [Expr]
+                        NoOptionalNumConst(
+                        ) [NoOptionalNumConst]
+                      ) [Print]
+                    ) [Stmt]
+                  ) [StatementListc]
+                  Stmt(
+                    Statement_d(
+                      DesignatorAssign(
+                        DesignatorBasic(
+                          DesignatorName(
+                           bodovi
+                          ) [DesignatorName]
+                        ) [DesignatorBasic]
+                        Assignop(
+                        ) [Assignop]
+                        Expr(
+                          Term(
+                            Factor(
+                              NoOptionalMinus(
+                              ) [NoOptionalMinus]
+                              BaseDesignator(
+                                DesignatorBasic(
+                                  DesignatorName(
+                                   bodovi
+                                  ) [DesignatorName]
+                                ) [DesignatorBasic]
+                              ) [BaseDesignator]
+                            ) [Factor]
+                            NoMulopFactorList(
+                            ) [NoMulopFactorList]
+                          ) [Term]
+                          AddopTermListc(
+                            AddopTermListc(
+                              NoAddopTermList(
+                              ) [NoAddopTermList]
+                              OperationPlus(
+                              ) [OperationPlus]
+                              Term(
+                                Factor(
+                                  NoOptionalMinus(
+                                  ) [NoOptionalMinus]
+                                  BaseExpr(
+                                    Expr(
+                                      Term(
+                                        Factor(
+                                          NoOptionalMinus(
+                                          ) [NoOptionalMinus]
+                                          BaseDesignator(
+                                            DesignatorBasic(
+                                              DesignatorName(
+                                               pet
+                                              ) [DesignatorName]
+                                            ) [DesignatorBasic]
+                                          ) [BaseDesignator]
+                                        ) [Factor]
+                                        MulopFactorListc(
+                                          NoMulopFactorList(
+                                          ) [NoMulopFactorList]
+                                          OperationMul(
+                                          ) [OperationMul]
+                                          Factor(
+                                            NoOptionalMinus(
+                                            ) [NoOptionalMinus]
+                                            BaseDesignator(
+                                              DesignatorBasic(
+                                                DesignatorName(
+                                                 jedan
+                                                ) [DesignatorName]
+                                              ) [DesignatorBasic]
+                                            ) [BaseDesignator]
+                                          ) [Factor]
+                                        ) [MulopFactorListc]
+                                      ) [Term]
+                                      AddopTermListc(
+                                        NoAddopTermList(
+                                        ) [NoAddopTermList]
+                                        OperationMinus(
+                                        ) [OperationMinus]
+                                        Term(
+                                          Factor(
+                                            NoOptionalMinus(
+                                            ) [NoOptionalMinus]
+                                            BaseNumber(
+                                             1
+                                            ) [BaseNumber]
+                                          ) [Factor]
+                                          NoMulopFactorList(
+                                          ) [NoMulopFactorList]
+                                        ) [Term]
+                                      ) [AddopTermListc]
+                                    ) [Expr]
+                                  ) [BaseExpr]
+                                ) [Factor]
+                                MulopFactorListc(
+                                  NoMulopFactorList(
+                                  ) [NoMulopFactorList]
+                                  OperationMul(
+                                  ) [OperationMul]
+                                  Factor(
+                                    NoOptionalMinus(
+                                    ) [NoOptionalMinus]
+                                    BaseDesignator(
+                                      DesignatorBasic(
+                                        DesignatorName(
+                                         bodovi
+                                        ) [DesignatorName]
+                                      ) [DesignatorBasic]
+                                    ) [BaseDesignator]
+                                  ) [Factor]
+                                ) [MulopFactorListc]
+                              ) [Term]
+                            ) [AddopTermListc]
+                            OperationMinus(
+                            ) [OperationMinus]
+                            Term(
+                              Factor(
+                                NoOptionalMinus(
+                                ) [NoOptionalMinus]
+                                BaseExpr(
+                                  Expr(
+                                    Term(
+                                      Factor(
+                                        NoOptionalMinus(
+                                        ) [NoOptionalMinus]
+                                        BaseNumber(
+                                         3
+                                        ) [BaseNumber]
+                                      ) [Factor]
+                                      MulopFactorListc(
+                                        NoMulopFactorList(
+                                        ) [NoMulopFactorList]
+                                        OperationMod(
+                                        ) [OperationMod]
+                                        Factor(
+                                          NoOptionalMinus(
+                                          ) [NoOptionalMinus]
+                                          BaseNumber(
+                                           2
+                                          ) [BaseNumber]
+                                        ) [Factor]
+                                      ) [MulopFactorListc]
+                                    ) [Term]
+                                    AddopTermListc(
+                                      AddopTermListc(
+                                        NoAddopTermList(
+                                        ) [NoAddopTermList]
+                                        OperationPlus(
+                                        ) [OperationPlus]
+                                        Term(
+                                          Factor(
+                                            NoOptionalMinus(
+                                            ) [NoOptionalMinus]
+                                            BaseNumber(
+                                             3
+                                            ) [BaseNumber]
+                                          ) [Factor]
+                                          MulopFactorListc(
+                                            NoMulopFactorList(
+                                            ) [NoMulopFactorList]
+                                            OperationMul(
+                                            ) [OperationMul]
+                                            Factor(
+                                              NoOptionalMinus(
+                                              ) [NoOptionalMinus]
+                                              BaseNumber(
+                                               2
+                                              ) [BaseNumber]
+                                            ) [Factor]
+                                          ) [MulopFactorListc]
+                                        ) [Term]
+                                      ) [AddopTermListc]
+                                      OperationMinus(
+                                      ) [OperationMinus]
+                                      Term(
+                                        Factor(
+                                          NoOptionalMinus(
+                                          ) [NoOptionalMinus]
+                                          BaseNumber(
+                                           3
+                                          ) [BaseNumber]
+                                        ) [Factor]
+                                        NoMulopFactorList(
+                                        ) [NoMulopFactorList]
+                                      ) [Term]
+                                    ) [AddopTermListc]
+                                  ) [Expr]
+                                ) [BaseExpr]
+                              ) [Factor]
+                              NoMulopFactorList(
+                              ) [NoMulopFactorList]
+                            ) [Term]
+                          ) [AddopTermListc]
+                        ) [Expr]
+                      ) [DesignatorAssign]
+                    ) [Statement_d]
+                  ) [Stmt]
+                ) [StatementListc]
+                Stmt(
+                  Print(
+                    Expr(
+                      Term(
+                        Factor(
+                          NoOptionalMinus(
+                          ) [NoOptionalMinus]
+                          BaseDesignator(
+                            DesignatorBasic(
+                              DesignatorName(
+                               bodovi
+                              ) [DesignatorName]
+                            ) [DesignatorBasic]
+                          ) [BaseDesignator]
+                        ) [Factor]
+                        NoMulopFactorList(
+                        ) [NoMulopFactorList]
+                      ) [Term]
+                      NoAddopTermList(
+                      ) [NoAddopTermList]
+                    ) [Expr]
+                    NoOptionalNumConst(
+                    ) [NoOptionalNumConst]
+                  ) [Print]
+                ) [Stmt]
+              ) [StatementListc]
+              Stmt(
+                Read(
+                  DesignatorBasic(
+                    DesignatorName(
+                     bodovi
+                    ) [DesignatorName]
+                  ) [DesignatorBasic]
+                ) [Read]
+              ) [Stmt]
+            ) [StatementListc]
+            Stmt(
+              Print(
+                Expr(
+                  Term(
+                    Factor(
+                      NoOptionalMinus(
+                      ) [NoOptionalMinus]
+                      BaseDesignator(
+                        DesignatorBasic(
+                          DesignatorName(
+                           bodovi
+                          ) [DesignatorName]
+                        ) [DesignatorBasic]
+                      ) [BaseDesignator]
+                    ) [Factor]
+                    NoMulopFactorList(
+                    ) [NoMulopFactorList]
+                  ) [Term]
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                ) [Expr]
+                NoOptionalNumConst(
+                ) [NoOptionalNumConst]
+              ) [Print]
+            ) [Stmt]
+          ) [StatementListc]
+          Stmt(
+            Statement_d(
+              DesignatorAssign(
+                DesignatorBasic(
+                  DesignatorName(
+                   niz2
+                  ) [DesignatorName]
+                ) [DesignatorBasic]
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  Term(
+                    Factor(
+                      NoOptionalMinus(
+                      ) [NoOptionalMinus]
+                      Range(
+                        Expr(
+                          Term(
+                            Factor(
+                              NoOptionalMinus(
+                              ) [NoOptionalMinus]
+                              BaseDesignator(
+                                DesignatorBasic(
+                                  DesignatorName(
+                                   bodovi
+                                  ) [DesignatorName]
+                                ) [DesignatorBasic]
+                              ) [BaseDesignator]
+                            ) [Factor]
+                            NoMulopFactorList(
+                            ) [NoMulopFactorList]
+                          ) [Term]
+                          AddopTermListc(
+                            NoAddopTermList(
+                            ) [NoAddopTermList]
+                            OperationPlus(
+                            ) [OperationPlus]
+                            Term(
+                              Factor(
+                                NoOptionalMinus(
+                                ) [NoOptionalMinus]
+                                BaseNumber(
+                                 1
+                                ) [BaseNumber]
+                              ) [Factor]
+                              NoMulopFactorList(
+                              ) [NoMulopFactorList]
+                            ) [Term]
+                          ) [AddopTermListc]
+                        ) [Expr]
+                      ) [Range]
+                    ) [Factor]
+                    NoMulopFactorList(
+                    ) [NoMulopFactorList]
+                  ) [Term]
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                ) [Expr]
+              ) [DesignatorAssign]
+            ) [Statement_d]
+          ) [Stmt]
+        ) [StatementListc]
+        Stmt(
+          Print(
+            Expr(
+              Term(
+                Factor(
+                  NoOptionalMinus(
+                  ) [NoOptionalMinus]
+                  BaseDesignator(
+                    DesignatorBasic(
+                      DesignatorName(
+                       niz2
+                      ) [DesignatorName]
+                    ) [DesignatorBasic]
+                  ) [BaseDesignator]
+                ) [Factor]
+                NoMulopFactorList(
+                ) [NoMulopFactorList]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [Expr]
+            NoOptionalNumConst(
+            ) [NoOptionalNumConst]
+          ) [Print]
+        ) [Stmt]
+      ) [StatementListc]
+    ) [MethodDecl]
+  ) [MethodDeclList_exist]
+) [Program]
+INFO  20:25:10,016 - ===================================
+INFO  20:25:10,035 - Pristup lokalnoj promenljivoj bodovi na liniji 20
+INFO  20:25:10,036 - Pristup lokalnoj promenljivoj bodovi na liniji 21
+INFO  20:25:10,036 - Pristup lokalnoj promenljivoj bodovi na liniji 22
+INFO  20:25:10,037 - Pristup lokalnoj promenljivoj bodovi na liniji 22
+INFO  20:25:10,037 - Pristup simbolickoj konstanti jedan na liniji 22
+INFO  20:25:10,037 - Pristup lokalnoj promenljivoj bodovi na liniji 23
+INFO  20:25:10,037 - Pristup lokalnoj promenljivoj bodovi na liniji 23
+INFO  20:25:10,037 - Pristup simbolickoj konstanti pet na liniji 23
+INFO  20:25:10,037 - Pristup lokalnoj promenljivoj bodovi na liniji 24
+INFO  20:25:10,037 - Pristup lokalnoj promenljivoj bodovi na liniji 25
+INFO  20:25:10,037 - Pristup globalnoj promenljivoj niz na liniji 28
+INFO  20:25:10,037 - Pristup simbolickoj konstanti nula na liniji 29
+INFO  20:25:10,037 - Pristup elementu niza niz na liniji 29
+INFO  20:25:10,037 - Pristup simbolickoj konstanti jedan na liniji 29
+INFO  20:25:10,037 - Pristup elementu niza niz na liniji 30
+INFO  20:25:10,037 - Pristup simbolickoj konstanti jedan na liniji 31
+INFO  20:25:10,038 - Pristup elementu niza niz na liniji 31
+INFO  20:25:10,038 - Pristup elementu niza niz na liniji 31
+INFO  20:25:10,038 - Pristup elementu niza niz na liniji 31
+INFO  20:25:10,038 - Pristup elementu niza niz na liniji 31
+INFO  20:25:10,038 - Pristup lokalnoj promenljivoj bodovi na liniji 32
+INFO  20:25:10,038 - Pristup elementu niza niz na liniji 32
+INFO  20:25:10,038 - Pristup elementu niza niz na liniji 32
+INFO  20:25:10,038 - Pristup lokalnoj promenljivoj bodovi na liniji 33
+INFO  20:25:10,038 - Pristup elementu niza niz na liniji 34
+INFO  20:25:10,038 - Pristup globalnoj promenljivoj nizch na liniji 37
+INFO  20:25:10,038 - Pristup elementu niza nizch na liniji 38
+INFO  20:25:10,038 - Pristup simbolickoj konstanti jedan na liniji 39
+INFO  20:25:10,038 - Pristup elementu niza nizch na liniji 39
+INFO  20:25:10,038 - Pristup simbolickoj konstanti pet na liniji 40
+INFO  20:25:10,038 - Pristup elementu niza nizch na liniji 40
+INFO  20:25:10,038 - Pristup elementu niza nizch na liniji 41
+INFO  20:25:10,038 - Pristup simbolickoj konstanti jedan na liniji 42
+INFO  20:25:10,039 - Pristup elementu niza nizch na liniji 42
+INFO  20:25:10,039 - Pristup lokalnoj promenljivoj bodovi na liniji 45
+INFO  20:25:10,039 - Pristup lokalnoj promenljivoj bodovi na liniji 45
+INFO  20:25:10,039 - Pristup simbolickoj konstanti pet na liniji 45
+INFO  20:25:10,040 - Pristup simbolickoj konstanti jedan na liniji 45
+INFO  20:25:10,040 - Pristup lokalnoj promenljivoj bodovi na liniji 45
+INFO  20:25:10,040 - Pristup lokalnoj promenljivoj bodovi na liniji 46
+INFO  20:25:10,040 - Pristup lokalnoj promenljivoj bodovi na liniji 48
+INFO  20:25:10,040 - Pristup lokalnoj promenljivoj bodovi na liniji 49
+INFO  20:25:10,040 - Pristup globalnoj promenljivoj niz2 na liniji 51
+INFO  20:25:10,040 - Pristup lokalnoj promenljivoj bodovi na liniji 51
+INFO  20:25:10,041 - Pristup globalnoj promenljivoj niz2 na liniji 52
+INFO  20:25:10,041 - ===================================
+INFO  20:25:10,042 -  Print count calls = 8
+INFO  20:25:10,043 -  Deklarisanih promenljivih ima = 4

@@ -1,0 +1,284 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+init with {:
+	errorDetected=false;
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+terminal String IDENT;
+terminal Integer NUMCONST, BOOLCONST;
+terminal Character CHARCONST;
+terminal DOUBLECOLON, DOUBLEINC, COUNT, FINAL, FULLSTOP, RANGE, EXCLAMATION, HASH;
+terminal PROGRAM, LBRACE, RBRACE, PLUS, LSBRACKET, RSBRACKET, STATIC, LPAREN, RPAREN, BREAK, ELSE, CONTINUE, COLON, RETURN, NAMESPACE, MINUS, DIV, MUL, MOD, AND, OR;
+terminal ISEQUAL, SEMICOLON, CONST, COMMA, IF, READ, PRINT, INC, DEC, VOID, EQUALS, NOTEQUALS, GREATER, GREATEREQUALS, LESS, LESSEQUALS, NEW;
+nonterminal ConstVarDeclList, MethodDeclList, ConDeclList, ConDecl, ConDeclAdditional, VarDeclList, Constant, VarDecl, VarDeclAdditional;
+nonterminal Statement, ElseStmt, ExprOpt, Statements, StatementList, SingleStatement, DesignatorStatement;
+nonterminal Condition, OptionalNumConst, Assignop;
+nonterminal FormParsOptional, Pars, ParsList, FormPars, Label, Mulop, Relop, Addop;
+nonterminal OptionalMinus, CondTerm, CondTermListOr, CondFactListAnd, CondFact, OptionalFinal; 
+nonterminal CondTermListAnd, LabelColon, VarDeclListRec;
+nonterminal Namespace, NamespaceOptional, InitList, InitListAdditional;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, MethodDecl , MethodTypeName, Designator, DesignatorName, DesignatorNameArr, NamespaceName, DesignatorNameArrNS, DesignatorNameNS, DesignatorNameHash, DesignatorOptional;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Factor, Expr , AddopTermList, MulopFactorList, Term, FactorX;
+
+precedence left ELSE;
+
+
+Program::= (Program) PROGRAM ProgName NamespaceOptional ConstVarDeclList LBRACE MethodDeclList RBRACE;
+
+Namespace ::= (Namespace) NAMESPACE NamespaceName LBRACE ConstVarDeclList LBRACE MethodDeclList RBRACE RBRACE;
+ProgName ::= (ProgName) IDENT;
+NamespaceOptional ::= (Namespace_exists) NamespaceOptional Namespace
+					  |
+					  (Namespace_e)/*epsilon*/
+					  ;
+NamespaceName ::= (NamespaceName) IDENT:nsName;
+ConstVarDeclList ::= (ConVarDeclC) ConstVarDeclList ConDeclList
+		             |
+		             (ConVarDeclV) ConstVarDeclList VarDeclList
+		             |
+		             (ConVarDeclE)/*epsilon*/
+		             ;
+ConDeclList ::= (ConDeclList) CONST Type ConDecl ConDeclAdditional SEMICOLON;
+ConDecl ::= (ConDecl) IDENT ISEQUAL Constant;
+ConDeclAdditional ::= (ConDeclAdditional_comma) COMMA ConDecl ConDeclAdditional
+				|
+				(ConDeclAdditional_e)/*epsilon*/
+				;
+VarDeclList ::= (VarDeclList) Type VarDecl VarDeclAdditional SEMICOLON
+				
+		    	;
+VarDecl ::= (VarDecl_v) IDENT:nameVar
+			|
+			(VarDecl_arr) IDENT:nameVarArr LSBRACKET RSBRACKET
+			;
+
+VarDeclAdditional ::= (VarDeclAdditional_comma) COMMA VarDecl VarDeclAdditional
+				|
+				(VarDeclAdditional_e)/*epsilon*/
+				;
+
+								
+Constant ::= (Constant_num) NUMCONST
+			 |
+			 (Constant_char) CHARCONST
+			 |
+			 (Constant_bool) BOOLCONST
+			 ;
+
+MethodDeclList ::= (MethodDeclList_exist) MethodDeclList MethodDecl
+				   |
+				   (MethodDeclListe)/*epsilon*/
+				   ;
+MethodDecl ::= (MethodDecl) MethodTypeName LPAREN FormParsOptional RPAREN VarDeclListRec LBRACE StatementList RBRACE;
+VarDeclListRec ::=(VarDeclListRece) VarDeclListRec VarDeclList
+				  |
+				  (VarDeclList_epsilon)
+				  ;
+
+MethodTypeName ::= (MethodTypeNamec) Type IDENT:methodName
+				   |
+				   (VoidFunc) VOID IDENT:methodName
+				   ;
+FormParsOptional ::= (FormPars_exist) FormPars
+					 |
+					 (FormPars_e)/*epsilon*/
+					 ;
+FormPars ::= (FormPars) Pars ParsList;
+				
+Pars ::= (Pars_nobraces) Type IDENT
+	  	 | 
+	  	 (Pars_braces)Type IDENT LBRACE RBRACE
+	  	 ;
+
+ParsList ::= (ParsListc) COMMA Pars ParsList
+			| 
+			(NoParsList) /* epsilon */
+			;
+Type ::= (Type) IDENT:TypeName;
+SingleStatement ::= (Statement_d) DesignatorStatement SEMICOLON
+			  |
+			  (If) IF LPAREN Condition RPAREN Statement ElseStmt
+			  |
+			  (Break) BREAK SEMICOLON
+			  |
+			  (Continue) CONTINUE SEMICOLON
+			  |
+			  (Return) RETURN ExprOpt SEMICOLON
+			  |
+			  (Read) READ LPAREN Designator RPAREN SEMICOLON
+			  |
+			  (Print) PRINT LPAREN Expr OptionalNumConst RPAREN SEMICOLON 
+			  |
+			  (Count)  DesignatorNameArr FULLSTOP COUNT LPAREN Expr RPAREN SEMICOLON
+			  ;
+ElseStmt ::= (ElseStmt_exists) ELSE Statement
+			 |
+			 (ElseStmt_e)/*epsilon*/
+			 ;
+OptionalNumConst ::=(OptionalNumConst_exists) COMMA NUMCONST
+					|
+					(NoOptionalNumConst)/*epsilon*/
+					;
+Statement ::= (Stmt) SingleStatement
+			  |
+			  (Stmt_label) LabelColon SingleStatement
+			  |
+			  (Stmts) Statements
+			  ;
+/*LabelColon ::= (LabelColonc) Label COLON;*/
+Statements ::= (Statements) LBRACE StatementList RBRACE;
+StatementList ::= (StatementListc) StatementList Statement
+				  |
+				  (NoStatementList) /* epsilon */
+				  ;
+ExprOpt ::= (OptionalExpression_exists) Expr 
+			|
+			(NoOptionalExpression) /* epsilon */
+			;
+DesignatorStatement ::= (DesignatorAssign) Designator Assignop Expr
+					|
+					(DesignatorIncrement) Designator INC
+					| 
+					(DesignatorDecrement) Designator DEC
+					|
+					(DesignatorDoubleIncrement) Designator DOUBLEINC
+					;
+
+Condition ::= (Condition) CondTerm CondTermListOr;
+CondTermListOr ::= (CondTermListOrc) CondTermListOr OR CondTerm
+				   | 
+				   (NoCondTermListOr) /* epsilon */
+				   ;
+
+CondTerm ::= (CondTerm) CondFact CondFactListAnd;
+CondFactListAnd ::= (CondFactListAndc) CondFactListAnd AND CondFact
+				    | 
+				    (NoCondFactListAnd) /* epsilon */;
+				
+CondFact ::= (CondFactc) Expr 
+			 | 
+			 (ExprRelop) Expr:firstExpr Relop Expr:secondExpr
+			 ;
+Expr ::= (Expr) Term AddopTermList;
+
+
+OptionalMinus ::= (OptionalMinusc) MINUS 
+			      |
+			      (NoOptionalMinus) /* epsilon */
+			      ;
+
+AddopTermList ::= (AddopTermListc) AddopTermList Addop Term
+				| 
+				(NoAddopTermList) /* epsilon */
+				;
+
+Term ::= (Term) Factor MulopFactorList;
+
+MulopFactorList ::= (MulopFactorListc) MulopFactorList Mulop Factor
+				| (NoMulopFactorList) /* epsilon */;
+				
+Factor::= (Factor) OptionalMinus FactorX;
+
+FactorX ::= (BaseNumber) NUMCONST
+			| 
+			(BaseChar) CHARCONST
+			| 
+			(BaseBool) BOOLCONST
+			| 
+			(BaseNewArrayElem) NEW Type LSBRACKET Expr RSBRACKET
+			| 
+			(BaseExpr) LPAREN Expr RPAREN
+			| 
+			(BaseDesignator)Designator
+			|
+			(Range)RANGE LPAREN Expr RPAREN
+			|
+			(Init) LSBRACKET InitList RSBRACKET
+			;
+InitList::=(InitList) DesignatorOptional InitListAdditional;
+InitListAdditional::=(InitListAdditional_exists) COMMA InitList
+			|
+			(InitListAdditional_e)
+			;
+		     
+DesignatorOptional::=(Designatorc) Designator
+			|
+			(Designatore);
+Designator ::= (DesignatorBasic) DesignatorName
+			   |
+			   (ArrayElem) DesignatorNameArr LSBRACKET Expr RSBRACKET
+			   |
+			   (Hash) HASH DesignatorNameHash	
+			   ;
+DesignatorName ::=(DesignatorName) IDENT:name;
+		   
+DesignatorNameArr ::= (DesignatorNameArr) IDENT:name;
+
+DesignatorNameHash ::=(DesignatorNameHash) IDENT:name;
+
+Label ::= (Label) IDENT;
+
+Assignop ::= (Assignop) ISEQUAL;
+
+Relop ::= (Relop) EQUALS
+		| NOTEQUALS
+		| GREATER
+		| GREATEREQUALS
+		| LESS
+		| LESSEQUALS;
+		
+Addop ::= (OperationPlus) PLUS | (OperationMinus) MINUS;
+
+Mulop ::= (OperationMul) MUL | (OperationDiv) DIV | (OperationMod) MOD;

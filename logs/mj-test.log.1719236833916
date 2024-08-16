@@ -1,0 +1,186 @@
+INFO  18:17:38,651 - Compiling source file: C:\Users\Emilija\eclipse-workspace\MJCompilerJul\test\test301.mj
+INFO  18:17:38,875 - #12 program
+INFO  18:17:38,876 - #2 Ema
+INFO  18:17:38,876 - #35 const
+INFO  18:17:38,881 - #2 int
+INFO  18:17:38,881 - #2 pi
+INFO  18:17:38,883 - #33 =
+INFO  18:17:38,883 - #3 3
+INFO  18:17:38,883 - #34 ;
+INFO  18:17:38,886 - #2 int
+INFO  18:17:38,888 - #2 x
+INFO  18:17:38,888 - #36 ,
+INFO  18:17:38,889 - #2 y
+INFO  18:17:38,889 - #16 [
+INFO  18:17:38,889 - #17 ]
+INFO  18:17:38,889 - #34 ;
+INFO  18:17:38,891 - #13 {
+INFO  18:17:38,893 - #42 void
+INFO  18:17:38,894 - #2 main
+INFO  18:17:38,894 - #19 (
+INFO  18:17:38,895 - #20 )
+INFO  18:17:38,897 - #2 int
+INFO  18:17:38,899 - #2 a
+INFO  18:17:38,899 - #36 ,
+INFO  18:17:38,899 - #2 b
+INFO  18:17:38,899 - #36 ,
+INFO  18:17:38,899 - #2 carr
+INFO  18:17:38,899 - #16 [
+INFO  18:17:38,899 - #17 ]
+INFO  18:17:38,900 - #34 ;
+INFO  18:17:38,900 - #13 {
+INFO  18:17:38,900 - #2 a
+INFO  18:17:38,902 - #33 =
+INFO  18:17:38,905 - #27 -
+INFO  18:17:38,907 - #3 5
+INFO  18:17:38,910 - #34 ;
+INFO  18:17:38,919 - #39 print
+INFO  18:17:38,919 - #19 (
+INFO  18:17:38,919 - #27 -
+INFO  18:17:38,919 - #2 a
+INFO  18:17:38,920 - #20 )
+INFO  18:17:38,922 - #34 ;
+INFO  18:17:38,922 - #14 }
+INFO  18:17:38,922 - #14 }
+INFO  18:17:38,935 - Program(
+  ProgName(
+   Ema
+  ) [ProgName]
+  Namespace_e(
+  ) [Namespace_e]
+  ConVarDeclV(
+    ConVarDeclC(
+      ConVarDeclE(
+      ) [ConVarDeclE]
+      ConDeclList(
+        Type(
+         int
+        ) [Type]
+        ConDecl(
+         pi
+          Constant_num(
+           3
+          ) [Constant_num]
+        ) [ConDecl]
+        ConDeclAdditional_e(
+        ) [ConDeclAdditional_e]
+      ) [ConDeclList]
+    ) [ConVarDeclC]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl_v(
+       x
+      ) [VarDecl_v]
+      VarDeclAdditional_comma(
+        VarDecl_arr(
+         y
+        ) [VarDecl_arr]
+        VarDeclAdditional_e(
+        ) [VarDeclAdditional_e]
+      ) [VarDeclAdditional_comma]
+    ) [VarDeclList]
+  ) [ConVarDeclV]
+  MethodDeclList_exist(
+    MethodDeclListe(
+    ) [MethodDeclListe]
+    MethodDecl(
+      VoidFunc(
+       main
+      ) [VoidFunc]
+      FormPars_e(
+      ) [FormPars_e]
+      VarDeclListRece(
+        VarDeclList_epsilon(
+        ) [VarDeclList_epsilon]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl_v(
+           a
+          ) [VarDecl_v]
+          VarDeclAdditional_comma(
+            VarDecl_v(
+             b
+            ) [VarDecl_v]
+            VarDeclAdditional_comma(
+              VarDecl_arr(
+               carr
+              ) [VarDecl_arr]
+              VarDeclAdditional_e(
+              ) [VarDeclAdditional_e]
+            ) [VarDeclAdditional_comma]
+          ) [VarDeclAdditional_comma]
+        ) [VarDeclList]
+      ) [VarDeclListRece]
+      StatementListc(
+        StatementListc(
+          NoStatementList(
+          ) [NoStatementList]
+          Stmt(
+            Statement_d(
+              DesignatorAssign(
+                DesignatorBasic(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                ) [DesignatorBasic]
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  Term(
+                    Factor(
+                      OptionalMinusc(
+                      ) [OptionalMinusc]
+                      BaseNumber(
+                       5
+                      ) [BaseNumber]
+                    ) [Factor]
+                    NoMulopFactorList(
+                    ) [NoMulopFactorList]
+                  ) [Term]
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                ) [Expr]
+              ) [DesignatorAssign]
+            ) [Statement_d]
+          ) [Stmt]
+        ) [StatementListc]
+        Stmt(
+          Print(
+            Expr(
+              Term(
+                Factor(
+                  OptionalMinusc(
+                  ) [OptionalMinusc]
+                  BaseDesignator(
+                    DesignatorBasic(
+                      DesignatorName(
+                       a
+                      ) [DesignatorName]
+                    ) [DesignatorBasic]
+                  ) [BaseDesignator]
+                ) [Factor]
+                NoMulopFactorList(
+                ) [NoMulopFactorList]
+              ) [Term]
+              NoAddopTermList(
+              ) [NoAddopTermList]
+            ) [Expr]
+            NoOptionalNumConst(
+            ) [NoOptionalNumConst]
+          ) [Print]
+        ) [Stmt]
+      ) [StatementListc]
+    ) [MethodDecl]
+  ) [MethodDeclList_exist]
+) [Program]
+INFO  18:17:38,935 - ===================================
+INFO  18:17:38,962 - Pristup lokalnoj promenljivoj a na liniji 7
+INFO  18:17:38,963 - Pristup lokalnoj promenljivoj a na liniji 8
+INFO  18:17:38,963 - ===================================
+INFO  18:17:38,979 - Uspesno zavrseno parsiranje
+INFO  18:17:38,982 -  Print count calls = 1
+INFO  18:17:38,982 -  Deklarisanih promenljivih ima = 2
